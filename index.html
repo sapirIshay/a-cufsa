@@ -114,7 +114,7 @@ html, body{
 }
 
 /* Video Grid Container */
-.video-grid-container {
+.img-grid-container {
   background-color: transparent;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -126,7 +126,7 @@ html, body{
   z-index: 1;
 }
 
-.video-block {
+.img-block {
   position: relative;
   width: 80%;
   height: 80%;
@@ -138,7 +138,7 @@ html, body{
   flex-direction: column;
 }
 
-.video-block video {
+.img-block video {
   width: 100%;
   flex: 1;
   object-fit: cover;
@@ -268,51 +268,33 @@ svg circle {
 
     <div class="grid-container">
         <div class="grid-logo-item">
-            <img src="./pics/logo.png" class="logo_pic" alt="Logo">
+            <img src="logo.png" class="logo_pic" alt="Logo">
         </div>
         
         <!-- Video Grid Container -->
-        <div class="video-grid-container">
-            <div class="video-block">
-                <video autoplay muted loop playsinline>
-                    <source src="./videos/video0.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+        <div class="img-grid-container">
+            <div class="img-block">
+                <img src="img0.png" class="" alt="ex0">
                 <div class="sets-reps">15x3</div>
             </div>
-            <div class="video-block">
-                <video autoplay muted loop playsinline>
-                    <source src="./videos/video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <div class="img-block">
+                <img src="img1.png" class="" alt="ex1">
                 <div class="sets-reps">20x4</div>
             </div>
-            <div class="video-block">
-                <video autoplay muted loop playsinline>
-                    <source src="./videos/video2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <div class="img-block">
+                <img src="img2.png" class="" alt="ex2">
                 <div class="sets-reps">15x3</div>
             </div>
-            <div class="video-block">
-                <video autoplay muted loop playsinline>
-                    <source src="./videos/video3.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <div class="img-block">
+                <img src="img3.png" class="" alt="ex3">
                 <div class="sets-reps">12x3</div>
             </div>
-            <div class="video-block">
-                <video autoplay muted loop playsinline>
-                <source src="./videos/video4.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <div class="img-block">
+                <img src="img0.png" class="" alt="ex4">
                 <div class="sets-reps">12x3</div>
             </div>
-            <div class="video-block">
-                <video autoplay muted loop playsinline>
-                    <source src="./videos/video5.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <div class="img-block">
+                <img src="img1.png" class="" alt="ex5">
                 <div class="sets-reps">12x4</div>
             </div>
         </div>
